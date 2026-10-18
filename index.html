@@ -25,7 +25,8 @@
     </section>
     <section class="gallery" aria-label="Rendered views">
       <div class="gallery-heading"><span data-i18n="galleryLabel">场景档案 / 五个机位</span><span>BLENDER · CYCLES</span></div>
-      <button class="hero-view" id="open-image" type="button" aria-label="查看大图 / View full-size image"><img id="hero-image" src="assets/hero.webp" width="1600" height="900" alt="幸福里居民楼与沿街商铺全景" fetchpriority="high"><span class="view-tag" id="view-tag">01 / 主视角</span><span class="expand-image" aria-hidden="true">↗</span></button>
+      <button class="hero-view" id="open-image" type="button" aria-label="查看大图 / View full-size image"><img id="hero-image" src="assets/hero.webp" width="1600" height="900" alt="幸福里居民楼与沿街商铺全景" fetchpriority="high"><img id="hero-previous" alt="" aria-hidden="true" width="1600" height="900"><span class="view-tag" id="view-tag">01 / 主视角</span><span class="expand-image" aria-hidden="true">↗</span><span class="tour-progress" aria-hidden="true"><span id="tour-progress-bar"></span></span></button>
+      <div class="tour-controls"><p id="tour-status">缓慢运镜 · 自动巡览</p><button id="motion-toggle" type="button" aria-pressed="true"><span id="motion-icon" aria-hidden="true">Ⅱ</span><span id="motion-label">暂停运镜</span></button></div>
       <div class="gallery-bottom"><p id="view-description">六层住宅与底层商铺，构成一段日常的街道。</p><span data-i18n="zoomHint">点击画面查看大图</span></div>
       <div class="view-selector" role="group" aria-label="Camera views">
         <button class="view-button is-active" type="button" data-view="0" aria-pressed="true"><img src="assets/hero.webp" alt="" width="320" height="180"><span><i>01</i><span data-i18n="view0">主视角</span></span></button>

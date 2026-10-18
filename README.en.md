@@ -12,7 +12,7 @@ A procedural Blender scene of an everyday Chinese neighborhood: six residential 
 
 ## Online preview
 
-The website supports Chinese / English switching, five camera views, a full-size image viewer, and a download of the original Blender scene. It displays rendered images; open the downloaded `.blend` file in Blender to explore the actual 3D geometry.
+The website supports Chinese / English switching, a five-view automatic camera tour with slow pan-and-zoom motion and crossfades, a full-size image viewer, and a download of the original Blender scene. Pause or resume motion at any time, or choose a view manually. Playback pauses when the gallery is off screen, the browser tab is hidden, or the image viewer is open, and respects the system reduced-motion preference. Motion uses rendered images; open the downloaded `.blend` file in Blender to explore the actual 3D geometry.
 
 ## Open the scene
 

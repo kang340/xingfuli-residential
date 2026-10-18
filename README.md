@@ -6,7 +6,7 @@
 
 [网页预览](https://kang340.github.io/xingfuli-residential/) · [GitHub](https://github.com/kang340/xingfuli-residential) · [MIT 许可](LICENSE)
 
-网页支持中英文切换、五个机位浏览和大图查看，展示 Blender 渲染图；完整三维工程可下载后用 Blender 打开。
+网页支持中英文切换、五个机位自动巡览、缓慢推拉运镜和大图查看。可随时暂停运镜或手动选择机位；页面切到后台、画面离开屏幕或打开大图时会自动暂停，并尊重系统的减少动态效果设置。运镜基于 Blender 渲染图，完整三维工程可下载后用 Blender 打开。
 
 一个完全由 Python 程序化生成的 Blender 场景：六层砖混住宅、底层沿街商铺、三个单元入口、封阳台与开放式阳台、屋顶太阳能与水箱，以及一条有梧桐、汽车、自行车、行人、猫和架空电线的老街。
 
