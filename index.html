@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f1eb">
+  <meta name="description" content="幸福里 · 3号楼。使用 DeepSeek V4.1 Flash 1017 制作的中国居民楼 Blender 程序化场景，浏览五个机位并下载开源工程。">
+  <meta property="og:title" content="幸福里 · 3号楼 / Xingfuli No. 3">
+  <meta property="og:description" content="Created with DeepSeek V4.1 Flash 1017 · Procedural Blender architecture">
+  <meta property="og:image" content="https://kang340.github.io/xingfuli-residential/assets/hero.webp">
+  <title>幸福里 · 3号楼 / Xingfuli No. 3</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23353630'/%3E%3Cpath d='M16 51V15h32v36M24 24h5m6 0h5M24 34h5m6 0h5M28 51V43h8v8' fill='none' stroke='%23f2e8d4' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="#" aria-label="幸福里 Xingfuli"><span class="building-icon" aria-hidden="true">▥</span> XINGFULI <span class="wordmark-small">/ NO. 3</span></a>
+    <nav aria-label="Language and source"><button id="language-toggle" type="button" aria-label="Switch to English">EN <span aria-hidden="true">↗</span></button><a href="https://github.com/kang340/xingfuli-residential" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">PROCEDURAL ARCHITECTURE · 001</p><h1><span data-i18n="title">幸福里</span><span class="title-number" data-i18n="number">3 号楼</span></h1></div>
+      <div class="intro-copy"><p data-i18n="intro">阳台上的衣服，楼下的面馆，黄昏里回家的人。用代码搭起一座熟悉的中国居民楼。</p><p class="model-credit"><span class="status-dot"></span><span data-i18n="credit">使用 DeepSeek V4.1 Flash 1017 制作</span></p></div>
+    </section>
+    <section class="gallery" aria-label="Rendered views">
+      <div class="gallery-heading"><span data-i18n="galleryLabel">场景档案 / 五个机位</span><span>BLENDER · CYCLES</span></div>
+      <button class="hero-view" id="open-image" type="button" aria-label="查看大图 / View full-size image"><img id="hero-image" src="assets/hero.webp" width="1600" height="900" alt="幸福里居民楼与沿街商铺全景" fetchpriority="high"><span class="view-tag" id="view-tag">01 / 主视角</span><span class="expand-image" aria-hidden="true">↗</span></button>
+      <div class="gallery-bottom"><p id="view-description">六层住宅与底层商铺，构成一段日常的街道。</p><span data-i18n="zoomHint">点击画面查看大图</span></div>
+      <div class="view-selector" role="group" aria-label="Camera views">
+        <button class="view-button is-active" type="button" data-view="0" aria-pressed="true"><img src="assets/hero.webp" alt="" width="320" height="180"><span><i>01</i><span data-i18n="view0">主视角</span></span></button>
+        <button class="view-button" type="button" data-view="1" aria-pressed="false"><img src="assets/facade.webp" alt="" width="320" height="180" loading="lazy"><span><i>02</i><span data-i18n="view1">立面细节</span></span></button>
+        <button class="view-button" type="button" data-view="2" aria-pressed="false"><img src="assets/entrance.webp" alt="" width="320" height="180" loading="lazy"><span><i>03</i><span data-i18n="view2">单元入口</span></span></button>
+        <button class="view-button" type="button" data-view="3" aria-pressed="false"><img src="assets/street.webp" alt="" width="320" height="180" loading="lazy"><span><i>04</i><span data-i18n="view3">街道生活</span></span></button>
+        <button class="view-button" type="button" data-view="4" aria-pressed="false"><img src="assets/roof.webp" alt="" width="320" height="180" loading="lazy"><span><i>05</i><span data-i18n="view4">屋顶风景</span></span></button>
+      </div>
+    </section>
+    <section class="details"><div><p class="eyebrow">A NEIGHBORHOOD, IN CODE</p><h2 data-i18n="detailsTitle">把日常，搭进细节里。</h2></div><div class="detail-copy"><p data-i18n="details">封阳台、防盗网、空调外机、晾衣杆；烟酒店、理发店、牛肉面馆和修车铺。屋顶有太阳能热水器和水箱，街边有梧桐、自行车、行人和一只猫。</p><p class="muted" data-i18n="procedural">由 Python 程序化生成，未使用外部模型或图片贴图。本页展示五个机位的渲染图；完整三维场景可下载后在 Blender 中查看。</p></div></section>
+    <section class="facts" aria-label="Project facts"><div><strong>6 + 1</strong><span data-i18n="floors">住宅层 + 底层商业</span></div><div><strong>5</strong><span data-i18n="cameras">预设机位</span></div><div><strong>Python</strong><span data-i18n="generation">程序化建模</span></div><div><strong>MIT</strong><span data-i18n="license">开源许可</span></div></section>
+    <section class="download"><div><p class="eyebrow">OPEN SOURCE / OPEN SCENE</p><h2 data-i18n="downloadTitle">把这条街，带回你的 Blender。</h2><p data-i18n="downloadCopy">完整工程、生成脚本与原始渲染图均已开源。</p></div><div class="download-actions"><a class="primary-link" id="download-blend" href="downloads/xingfuli.blend" download="xingfuli.blend"><span data-i18n="download">下载 .blend 工程</span><span>↓</span></a><a class="source-link" href="https://github.com/kang340/xingfuli-residential"><span data-i18n="source">查看源码与说明</span> ↗</a></div></section>
+  </main>
+  <footer><span>幸福里 / XINGFULI NO. 3</span><span>DeepSeek V4.1 Flash 1017 · Blender · Cycles</span><a href="https://github.com/kang340/xingfuli-residential/blob/main/LICENSE">© 2026 kang340 · MIT</a></footer>
+  <dialog id="image-dialog"><div class="dialog-toolbar"><span id="dialog-caption">01 / 主视角</span><button id="close-dialog" type="button" aria-label="关闭 / Close">×</button></div><img id="dialog-image" alt=""><div class="dialog-nav"><button id="previous-view" type="button" aria-label="上一张 / Previous">←</button><span>← / →</span><button id="next-view" type="button" aria-label="下一张 / Next">→</button></div></dialog>
+  <noscript><p class="noscript">启用 JavaScript 可切换机位与语言。全部原始图片和工程见 <a href="https://github.com/kang340/xingfuli-residential">GitHub</a>。</p></noscript>
+</body>
+</html>

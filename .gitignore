@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.blend[0-9]*
+.env
+.env.*
+!.env.example
+*.log
+.local/
+output/
+.playwright-cli/
+.DS_Store
+Thumbs.db
+_site/
+downloads/
